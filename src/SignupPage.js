@@ -18,14 +18,14 @@ export default function Signup({navigation}) {
   function displaySignupForm() {
     return (
       <SafeAreaView>
-        <Text>Username:</Text>
+        <Text>New Username:</Text>
         <TextInput
           style={styles.input}
           onChangeText={setUsername}
           value={username}
         />
 
-        <Text>Password:</Text>
+        <Text>New Password:</Text>
         <TextInput
           style={styles.input}
           secureTextEntry={true}
